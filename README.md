@@ -1,6 +1,6 @@
 ## Spline G-CNNs
 
-This repository contains the sore code accompanying the paper "B-Spline CNNs on Lie Groups" which is published ICLR 2020 (https://openreview.net/forum?id=H1gBhkBFDH).
+This repository contains the source code accompanying the paper "B-Spline CNNs on Lie Groups" which is published ICLR 2020 (https://openreview.net/forum?id=H1gBhkBFDH).
 
 ## Folder structure
 The folder structure is as follows:
