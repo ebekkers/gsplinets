@@ -10,7 +10,9 @@ from . import bsplines
 
 # Start of (parent class) 
 class layers:
-    def __init__(self, group):
+    def __init__(self, group_name):
+        import importlib
+        group = importlib.import_module('gsplinets_tf.group.' + group_name)
         self.group = group
         self.G = group.G
         self.Rn = group.Rn

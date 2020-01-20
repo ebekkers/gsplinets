@@ -27,4 +27,4 @@
 # TODO: check n-dimensional convolutions (currently conv2D is used everywhere..) and max-pooling
 # TODO: second order B-splines
 # TODO: Rn max-pooling
-from gsplinets.layers import layers
+from gsplinets_tf.layers import layers
