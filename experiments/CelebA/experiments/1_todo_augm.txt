@@ -1,0 +1,5 @@
+--modelfn ./models/CelebALandmarks_FixedScale_augm.py --net_kwargs "{'N_h':1,'N_k_h':1,'N_c':27,'h_range':1.0,'h_origin_at':'min','h_kernel_type':'dense','scale_augm_range':1.4}"
+--modelfn ./models/CelebALandmarks_FixedScale_augm.py --net_kwargs "{'N_h':1,'N_k_h':1,'N_c':27,'h_range':1.6,'h_origin_at':'min','h_kernel_type':'dense','scale_augm_range':1.4}"
+--modelfn ./models/CelebALandmarks_FixedScale_augm.py --net_kwargs "{'N_h':1,'N_k_h':1,'N_c':27,'h_range':2.0,'h_origin_at':'min','h_kernel_type':'dense','scale_augm_range':1.4}"
+--modelfn ./models/CelebALandmarks_FixedScale_augm.py --net_kwargs "{'N_h':1,'N_k_h':1,'N_c':27,'h_range':2.8,'h_origin_at':'min','h_kernel_type':'dense','scale_augm_range':1.4}"
+--modelfn ./models/CelebALandmarks_FixedScale_augm.py --net_kwargs "{'N_h':1,'N_k_h':1,'N_c':27,'h_range':4.0,'h_origin_at':'min','h_kernel_type':'dense','scale_augm_range':1.4}"

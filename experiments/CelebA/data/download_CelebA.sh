@@ -1,0 +1,12 @@
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/test_ids.txt
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/test_meta.h5
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/test_x.h5
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/test_y.h5
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/train_ids.txt
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/train_meta.h5
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/train_x.h5
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/train_y.h5
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/val_ids.txt
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/val_meta.h5
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/val_x.h5
+wget https://staff.fnwi.uva.nl/e.j.bekkers/LGCNNs/val_y.h5

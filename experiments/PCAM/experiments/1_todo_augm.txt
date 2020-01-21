@@ -1,0 +1,6 @@
+--modelfn ./models/PCAM_SE2_norotaugm.py --net_kwargs "{'N_h':1,'N_k_h':1,'N_c':40,'h_kernel_type':'dense'}"
+--modelfn ./models/PCAM_SE2_norotaugm.py --net_kwargs "{'N_h':1,'N_k_h':1,'N_c':40,'h_kernel_type':'dense'}"
+--modelfn ./models/PCAM_SE2_norotaugm.py --net_kwargs "{'N_h':1,'N_k_h':1,'N_c':40,'h_kernel_type':'dense'}"
+--modelfn ./models/PCAM_SE2_norotaugm.py --net_kwargs "{'N_h':12,'N_k_h':12,'N_c':11,'h_kernel_type':'dense'}"
+--modelfn ./models/PCAM_SE2_norotaugm.py --net_kwargs "{'N_h':12,'N_k_h':12,'N_c':11,'h_kernel_type':'dense'}"
+--modelfn ./models/PCAM_SE2_norotaugm.py --net_kwargs "{'N_h':12,'N_k_h':12,'N_c':11,'h_kernel_type':'dense'}"

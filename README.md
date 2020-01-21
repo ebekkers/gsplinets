@@ -1,17 +1,17 @@
 ## Spline G-CNNs
 
-This repository contains the source code accompanying the paper "B-Spline CNNs on Lie Groups" which is published ICLR 2020 (https://openreview.net/forum?id=H1gBhkBFDH).
+This repository contains the source code accompanying the paper "B-Spline CNNs on Lie Groups" which is published ICLR 2020 (https://openreview.net/forum?id=H1gBhkBFDH). The experiments performed in this paper are based on the `gsplinets_tf` library found in this repository. The full set of experiments can be reproduced using the scripts of the accompanying repository which can be found in the directory `experiments`.
 
 ## Folder structure
 The folder structure is as follows:
 
-* The main library is found in the folder `gsplinets`. 
+* `gsplinets_tf` contains the main tensorflow library.
 
-* See `demo` for short jupyter notebook demo's on how to use the the code.
+* `demo` includes some short jupyter notebook demo's on how to use the the code.
 
-* Also see `docs` for the documentation of the layer interfaces.
+* `docs` contains basic documentation of the layer interfaces.
 
-The paper also describes a series of experiments. The scripts that produce the results of the paper, and which are based on the library present in this repo, will appear soon in a separate repository.
+* `experiments` contains the scripts to run the experiments of the ICLR 2020 publication.
 
 ## Dependencies
 
@@ -52,4 +52,4 @@ url={https://openreview.net/forum?id=H1gBhkBFDH}
 
 ## License
 
-*gsplinets* is distributed under MIT license. See LICENSE file.
+The code and scripts in this repository are distributed under MIT license. See LICENSE file.
