@@ -37,7 +37,7 @@ def train_arg_parser():
                         default=None)
 
     parser.add_argument('--modelfn', type=str,
-                        default='./models/PCAM_SE2_v1.py')
+                        default='./models/PCAM_SE2.py')
     parser.add_argument('--trainfn', type=str,
                         default='train_all.npz')
     parser.add_argument('--valfn', type=str,
@@ -51,7 +51,7 @@ def train_arg_parser():
                         default=2048)
 
     parser.add_argument('--net_kwargs', type=ast.literal_eval,
-                        default={})
+                        default={'N_h':8,'N_k_h':8,'N_c':14,'h_kernel_type':'dense'})
 
     parser.add_argument('--weight_decay', type=float,
                         default=0.0005)

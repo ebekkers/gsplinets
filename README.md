@@ -19,9 +19,11 @@ This code as based on tensorflow and has been tested with the following library 
 
 * tensorflow-gpu==1.15
 
-* numpy==1.17.4
+* numpy==1.18.1
 
 * scipy==1.3.2
+
+* scikit-learn==0.22.1
 
 * matplotlib==3.1.1
 

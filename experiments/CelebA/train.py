@@ -40,7 +40,7 @@ def train_arg_parser():
                         default=None)
 
     parser.add_argument('--modelfn', type=str,
-                        default='./models/CelebALandmarks_SE2_v1.py')
+                        default='./models/CelebALandmarks_Scaling.py')
     parser.add_argument('--trainfn', type=str,
                         default='train_all.npz')
     parser.add_argument('--valfn', type=str,
@@ -54,7 +54,7 @@ def train_arg_parser():
                         default=1755)
 
     parser.add_argument('--net_kwargs', type=ast.literal_eval,
-                        default={'N_h': 1, 'N_k_h': 1, 'N_c': 8, 'h_kernel_type': 'dense'})
+                        default={'N_h':1,'N_k_h':1,'N_c':27,'h_range':1.0,'h_origin_at':'min','h_kernel_type':'localized'})
 
     parser.add_argument('--weight_decay', type=float,
                         default=0.0005)
