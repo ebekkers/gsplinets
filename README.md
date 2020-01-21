@@ -34,7 +34,7 @@ An appropriate environment may be constructed with conda via
 ```
 conda create --yes --name tf
 conda activate tf
-conda install tensorflow-gpu==1.15 numpy==1.17.4 scipy==1.3.2 matplotlib==3.1.1 jupyter==1.0.0 --yes
+conda install tensorflow-gpu==1.15 numpy==1.18.1 scipy==1.3.2 scikit-learn==0.22.1 matplotlib==3.1.1 jupyter==1.0.0 --yes
 ```
 
 ## Cite
